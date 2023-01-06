@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tasks - To Do</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="root">
+  <div class="container">
+    <div class="header">
+      <h3 class="date">Today: Friday, 8 April 2021</h3>
+    </div>
+    <div class="content">
+      <ul class="task-list">
+        <li class="task-item">
+          <input type="checkbox" id="task-1">
+          <label for="task-1">
+            <i class="fa fa-check"></i>
+            <span class="label">Task 1</span>
+            <i class="fa fa-times-circle delete"></i>
+          </label>
+        </li>
+        <li class="task-item">
+          <input type="checkbox" id="task-2">
+          <label for="task-2">
+            <i class="fa fa-check"></i>
+            <span class="label">Another task</span>
+            <i class="fa fa-times-circle delete"></i>
+          </label>
+        </li>
+        <li class="task-item">
+          <input type="checkbox" id="task-3">
+          <label for="task-3">
+            <i class="fa fa-check"></i>
+            <span class="label">Do something else</span>
+            <i class="fa fa-times-circle delete"></i>
+          </label>
+        </li>
+      </ul>
+      <div class="add-item">
+        <form action="">
+          <input type="text" placeholder="Add a task" />
+          <button class="plus-add">
+            <i class="fa fa-plus"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
